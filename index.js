@@ -1,10 +1,4 @@
-function divide(){
-  return 2000/100
-}
 
-const square = x => x * x;
-square(1);
+const divide = (num1, num2) => num1 / num2;
 
-const add = (param1,param2) => param1 + param2;
-add(2,3);
-
+divide(2000/100)
